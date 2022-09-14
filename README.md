@@ -1,7 +1,7 @@
 # CoT-Verification-Toolbox
 Official Repository of CoT Rationale Verification Toolbox.
 
-Part of project of Software Engineering course at Yonsei Univeristy.
+Software Engineering course project at Yonsei Univeristy.
 
 ### Paper Title :
 CoRaV : Chain of Thought Rationale Verification Toolbox via Web Search and User Feedback
