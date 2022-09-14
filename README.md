@@ -13,5 +13,7 @@ Seungone Kim, Sejune Joo, TBA, Jinyoung Yeo
 
 ### Implementation Participants :
 Front-End : Sangwon Park, Sehwan Jeon
+
 Back-End : Imsung Yu, Donghwan Park, Yul Jang
+
 AI Module : Seungone Kim, Sejune Joo
