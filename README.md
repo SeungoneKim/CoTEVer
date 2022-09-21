@@ -10,7 +10,7 @@ CoRaV : Chain of Thought Rationale Verification Toolbox via Web Search and User 
 LREC 2023 or NAACL 2023 demo track (Due : TBD, Maybe January 2023)
 
 ### Authors :
-Seungone Kim, Sejune Joo, TBA, Jinyoung Yeo
+Seungone Kim, Sejune Joo, Yul Jang, Donghwan Park, Jinyoung Yeo
 
 ### Implementation Participants :
 Front-End : Sangwon Park, Sehwan Jeon
