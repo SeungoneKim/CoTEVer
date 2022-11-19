@@ -1,0 +1,9 @@
+[submodule "CoT-Verification-Toolbox-Frontend"]
+	path = CoT-Verification-Toolbox-Frontend
+	url = https://github.com/parksw1230/CoT-Verification-Toolbox-Frontend
+[submodule "CoT-Verification-Toolbox-Backend"]
+	path = CoT-Verification-Toolbox-Backend
+	url = https://github.com/imsongkk/CoT-Verification-Toolbox-Backend
+[submodule "CoT-Verification-Toolbox-Middleware"]
+	path = CoT-Verification-Toolbox-Middleware
+	url = https://github.com/yuljang/CoT-Verification-Toolbox-Middleware
