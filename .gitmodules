@@ -1,6 +1,3 @@
-[submodule "CoT-Verification-Toolbox-Frontend"]
-	path = CoT-Verification-Toolbox-Frontend
-	url = https://github.com/parksw1230/CoT-Verification-Toolbox-Frontend
 [submodule "CoT-Verification-Toolbox-Backend"]
 	path = CoT-Verification-Toolbox-Backend
 	url = https://github.com/imsongkk/CoT-Verification-Toolbox-Backend
