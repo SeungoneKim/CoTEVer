@@ -4,3 +4,6 @@
 [submodule "CoT-Verification-Toolbox-Middleware"]
 	path = CoT-Verification-Toolbox-Middleware
 	url = https://github.com/yuljang/CoT-Verification-Toolbox-Middleware
+[submodule "CoT-Verification-Toolbox-Frontend"]
+	path = CoT-Verification-Toolbox-Frontend
+	url = https://github.com/NormalPlayerJSH/CoT-Verification-Toolbox-Frontend
