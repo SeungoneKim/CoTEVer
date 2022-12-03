@@ -1,16 +1,11 @@
-# CoT-Verification-Toolbox
-Official Repository of CoT Rationale Verification Toolbox.
-
-Software Engineering course project at Yonsei Univeristy.
-
-### Paper Title :
-CoRaV : Chain of Thought Rationale Verification Toolbox via Web Search and User Feedback
+# Paper Title
+Official Repository of "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification"
 
 ### Targeted Conference :
-LREC 2023 or NAACL 2023 demo track (Due : TBD, Maybe January 2023)
+EACL 2023 demo session
 
 ### Authors :
-Seungone Kim, Sejune Joo, Yul Jang, Donghwan Park, Jinyoung Yeo
+Seungone Kim, Sejune Joo, Yul Jang, Hyungjoo Chae, Jinyoung Yeo
 
 ### Implementation Participants :
 Front-End : Sangwon Park, Sehwan Jeon
