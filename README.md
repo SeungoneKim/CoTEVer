@@ -13,3 +13,6 @@ Front-End : Sangwon Park, Sehwan Jeon
 Back-End : Imsung Yu, Donghwan Park, Yul Jang
 
 AI Module : Seungone Kim, Sejune Joo
+
+### How to use
+You could go into each module's directory to set up the program!
