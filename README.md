@@ -16,3 +16,6 @@ AI Module : Seungone Kim, Sejune Joo
 
 ### How to use
 You could go into each module's directory to set up the program!
+
+
+We're processing the code, so stay tuned!
