@@ -1,0 +1,28 @@
+{
+    "api_key": "abc-123",
+    "question": "Would a dog easily notice ammonia?",
+    "explanation": {
+        "1": {
+            "sub_question": "What is the sense of smell of a dog?",
+            "sub_answer": "A dog's sense of smell is 10,000 to 100,000 times more acute as that of humans.",
+            "alternative_sub_question": "How well do dogs smell?",
+            "alternative_sub_answer": "",
+            "evidence_document":{
+            },
+            "sub_answer_rating": -1
+        },
+        "2": {
+            "sub_question": "What is the smell of ammonia?",
+            "sub_answer": "Ammonia has a strong smell.",
+            "alternative_sub_question": "How strong is the smell of ammonia?",
+            "alternative_sub_answer": "Ammonia has a very strong odor.",
+            "evidence_document":{
+            },
+            "sub_answer_rating": -1
+        }
+    },
+    "final_explanation": "Since a dog's sense of smell is 10,000 to 100,000 times more acute as that of humans, and ammonia has a strong smell, a dog would easily notice ammonia.",
+    "final_explanation_rating": -1,
+    "final_answer": "So the answer is yes.",
+    "final_answer_rating": -1
+}

@@ -1,0 +1,89 @@
+{
+    "query": "Do hamsters provide food for any animals?",
+    "finalAnswer": "So the anwer is yes.",
+    "finalExplanation": "대충 설명",
+    "stepCount": 3,
+    "nodeList": [
+        {
+            "subQuestion": "What type of animals are hamsters?",
+            "subQuestionKeyword": "keyword1",
+            "subAnswer": "Hamsters are prey animals.",
+            "top5List": [
+                {
+                    "first": "www.naver.com",
+                    "second": "A"
+                },
+                {
+                    "first": "www.naverB.com",
+                    "second": "B"
+                },
+                {
+                    "first": "www.naverC.com",
+                    "second": "C"
+                },
+                {
+                    "first": "www.naverC.com",
+                    "second": "D"
+                },
+                {
+                    "first": "www.naverC.com",
+                    "second": "E"
+                }
+            ]
+        },
+        {
+            "subQuestion": "Can prey animals be food for other animals?",
+            "subQuestionKeyword": "keyword2",
+            "subAnswer": "Prey are food for predators.",
+            "top5List": [
+                {
+                    "first": "www.google.com",
+                    "second": "A"
+                },
+                {
+                    "first": "www.googleB.com",
+                    "second": "B"
+                },
+                {
+                    "first": "www.googleC.com",
+                    "second": "C"
+                },
+                {
+                    "first": "www.googleD.com",
+                    "second": "D"
+                },
+                {
+                    "first": "www.googleE.com",
+                    "second": "E"
+                }
+            ]
+        },
+        {
+            "subQuestion": "Do hamsters provide food for any animals?",
+            "subQuestionKeyword": "keyword2",
+            "subAnswer": "Since hamsters are prey animals, and prey are food for predetors, hamsters provide food for some animals.",
+            "top5List": [
+                {
+                    "first": "www.google.com",
+                    "second": "A"
+                },
+                {
+                    "first": "www.googleB.com",
+                    "second": "B"
+                },
+                {
+                    "first": "www.googleC.com",
+                    "second": "C"
+                },
+                {
+                    "first": "www.googleD.com",
+                    "second": "D"
+                },
+                {
+                    "first": "www.googleE.com",
+                    "second": "E"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+  "question": "What kind of food is good for health?",
+  "explanation": {
+    "0": {
+      "sub_question": " What is the definition of health?",
+      "sub_answer": " Health is the level of functional or metabolic efficiency of a living organism.",
+      "evidence_document": {
+        "0": {
+          "url": "https://www.who.int/about/governance/constitution",
+          "title": "Constitution of the World Health Organization",
+          "document": "health is a state of complete physical, mental and social well-being . unequal development in different countries in the promotion of health and control of diseases, especially communicable disease, is common danger.",
+          "score": 0.8381556272506714
+        },
+        "1": {
+          "url": "https://www.cdc.gov/healthliteracy/learn/index.html",
+          "title": "What Is Health Literacy? | Health Literacy | CDC",
+          "document": "efforts made to maintain or restore physical, mental, or emotional well-being especially by trained and licensed professionals . hyphenated when used attributively .",
+          "score": 0.8301858901977539
+        },
+        "2": {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2080455/",
+          "title": "The Meanings of Health and its Promotion - PMC",
+          "document": "the definition of health literacy was updated with the release of the Healthy People 2030external icon initiative . the update addresses personal health literacy and organizational health literacy .",
+          "score": 0.8075016736984253
+        },
+        "3": {
+          "url": "https://www.rwjf.org/en/library/research/2017/05/what-is-health-equity-.html",
+          "title": "What is Health Equity? A Definition and Discussion Guide - RWJF",
+          "document": "a report designed to increase consensus around meaning of health equity is lacking . lack of clarity can lead to detours and pose a barrier to effective engagement and action .",
+          "score": 0.777378261089325
+        },
+        "4": {
+          "url": "https://www.merriam-webster.com/dictionary/health%20care",
+          "title": "Health care Definition & Meaning - Merriam-Webster",
+          "document": "your access to PubMed Central has been blocked . you are using an automated process to retrieve content from PMC . this is in violation of the terms of the PMC Copyright Notice .",
+          "score": 0.6697419285774231
+        }
+      }
+    },
+    "1": {
+      "sub_question": " What is the definition of food?",
+      "sub_answer": " Food is any substance consumed to provide nutritional support for an organism.",
+      "evidence_document": {
+        "0": {
+          "url": "https://www.merriam-webster.com/dictionary/food",
+          "title": "Food Definition & Meaning - Merriam-Webster",
+          "document": "food is usually of plant, animal, or fungal origin, and contains essential nutrients . the right to food is a human right based on the international covenant on economic, social and cultural rights .",
+          "score": 0.8204020261764526
+        },
+        "1": {
+          "url": "https://www.britannica.com/topic/food",
+          "title": "Food | Definition & Nutrition | Britannica",
+          "document": "nutriment in solid form is something that nourishes, sustains, or supplies Books were his mental food . the word 'nutriment' is used in the body of an organism to sustain growth, repair, and vital processes .",
+          "score": 0.8171871304512024
+        },
+        "2": {
+          "url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/definitions-of-food-security/",
+          "title": "Definitions of Food Security - USDA ERS",
+          "document": "john avlon: hunger and food insecurity mean different things . he says hunger is the feeling someone has when they don't have food . food insecure is the lack of food to have a healthy life because of your economic situation .",
+          "score": 0.7668043375015259
+        },
+        "3": {
+          "url": "https://www.feedingamerica.org/hunger-in-america/food-insecurity",
+          "title": "What is Food Insecurity? | Feeding America",
+          "document": "USDA introduced new language to describe ranges of severity of food insecurity . new labels were introduced, but the methods used to assess households' food security remained unchanged .",
+          "score": 0.7282668352127075
+        },
+        "4": {
+          "url": "https://en.wikipedia.org/wiki/Food",
+          "title": "Food - Wikipedia",
+          "document": "there may be some discrepancies in citation style rules . please refer to the appropriate style manual or other sources if you have any questions.",
+          "score": 0.7078142166137695
+        }
+      }
+    },
+    "2": {
+      "sub_question": " What kind of food is good for health?",
+      "sub_answer": " Since food is any substance consumed to provide nutritional support for an organism, and health is the level of functional or metabolic efficiency of a living organism, food is good for health.",
+      "evidence_document": {
+        "0": {
+          "url": "https://health.ucdavis.edu/blog/good-food/top-15-healthy-foods-you-should-be-eating/2019/04",
+          "title": "Top 15 healthy foods you should be eating",
+          "document": "dark green vegetables include broccoli, peppers, brussel sprouts and leafy greens like kale and spinach . whole grains include whole wheat flour, rye, oatmeal, barley, amaranth, quinoa or a multigrain . a good source",
+          "score": 0.8491422533988953
+        },
+        "1": {
+          "url": "https://www.ucsfhealth.org/education/top-ten-foods-for-health",
+          "title": "Top 10 Foods for Health | Patient Education | UCSF Health",
+          "document": "the Australian Dietary Guidelines provide up-to-date advice about the types and recommended number of serves of the different foods that we need to eat for good nutrition and health . they are based on best available science about types and amounts of foods and the dietary patterns that are thought to promote health",
+          "score": 0.8468091487884521
+        },
+        "2": {
+          "url": "https://www.medicalnewstoday.com/articles/245259",
+          "title": "The top 15 healthful foods: Pulses, vegetables, proteins, and more",
+          "document": "the top 15 foods you should be eating according to experts . fish is high in healthy omega 3 fatty acids and smaller portions of red meat . peanut butter is my favorite food .",
+          "score": 0.8287781476974487
+        },
+        "3": {
+          "url": "https://www.healthline.com/nutrition/50-super-healthy-foods",
+          "title": "50 Foods That Are Super Healthy",
+          "document": "this article lists the 15 foods that sources and studies across the u.s. and western europe deem the most healthful foods .",
+          "score": 0.8250842094421387
+        },
+        "4": {
+          "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/healthy-eating",
+          "title": "Healthy eating and diet - Better Health Channel",
+          "document": "fruits and berries are among the world’s most popular health foods . they are very easy to incorporate into your diet because they require little to no preparation .",
+          "score": 0.8183896541595459
+        }
+      }
+    }
+  },
+  "output": {
+    "final_answer": "So the answer is food."
+  }
+}

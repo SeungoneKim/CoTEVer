@@ -1,0 +1,6 @@
+[submodule "Sogong_AI"]
+	path = Sogong_AI
+	url = https://github.com/joocjun/Sogong_AI
+[submodule "CoTEver_Search"]
+	path = CoTEver_Search
+	url = https://github.com/srpark13/CoTEver_Search

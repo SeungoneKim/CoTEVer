@@ -1,0 +1,5 @@
+POST http://43.200.230.144/query HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+
+{"question": "hello"}
