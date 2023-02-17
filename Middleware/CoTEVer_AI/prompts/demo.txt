@@ -1,22 +1,3 @@
-import uvicorn
-from fastapi import FastAPI
-from pydantic import BaseModel
-
-from CoTEver_Search import search_yul
-from CoTEVer_AI import gpt_request, speedup
-import math
-import asyncio
-import os
-
-
-class Input(BaseModel):
-    question: str
-
-
-app = FastAPI()
-my_decoder = gpt_request.Decoder()
-my_summarizer = speedup.SpeedyPipeline()
-demo = """
 [Example 1]
 Question: Do hamsters provide food for any animals?
 Output:
@@ -26,7 +7,7 @@ Sub Question #1 : Can prey animals be food for other animals?
 Sub Answer #1 : Prey are food for predators.
 Sub Question #2 : Do hamsters provide food for any animals?
 Sub Answer #2 : Since hamsters are prey animals, and prey are food for predetors, hamsters provide food for some animals.
-So the answer is yes.
+Final Answer : So the answer is yes.
 
 [Example 2]
 Question: Could Brooke Shields succeed at University of Pennsylvania?
@@ -94,41 +75,3 @@ Sub answer #4 : Since a pear has a smaller density than water, a pear would floa
 So the answer is no.
 
 [Example 7]
-Question: {}
-Output:
-"""
-
-
-# formatting returned output from gpt-3 for search module
-def formatter(input, question):
-    output = {}
-    output["question"] = question
-    output["explanation"] = {}
-    output["output"] = {}
-    for index in range(math.floor(len(input)/2)):
-        output["explanation"][str(index)] = {}
-        output["explanation"][str(index)]["sub_question"] = input[index*2]
-        output["explanation"][str(index)]["sub_answer"] = input[index*2+1]
-        output["explanation"][str(index)]["evidence_document"] = {}
-    output["output"]["final_answer"] = input[-1]
-
-    return output
-
-
-@app.get("/")
-async def root():
-    return {"message": "Hello, world!"}
-
-
-@app.post("/test")
-async def test(input: Input):
-    output = formatter(my_decoder.decode(demo.format(input.question), key=os.getenv('GPT3_KEY')), input.question)
-    output = await search_yul.search(output, os.getenv('GOOGLE_SEARCH_API_KEY'), os.getenv('GOOGLE_ENGINE_ID_KEY'))
-    output = my_summarizer.process_one(output)
-
-    return output
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-    
