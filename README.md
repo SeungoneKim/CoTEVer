@@ -11,17 +11,14 @@ Overview of software, CoTEVer.
 </p>
 
 
-## Setting
-Using the following commands, you could install the required softwares.
-
-#### 1. Common Installations
+## 1. Common Installations
 First, install npm, node packages. In Linux environment, you could use apt-get instead of brew.
 ```
 brew install node
 brew install npm
 ```
 
-#### 2. FrontEnd Module
+## 2. FrontEnd Module
 Second, go to the './Frontend' directory, and use the following command.
 ```
 npm install
@@ -32,7 +29,7 @@ npm start
 ```
 
 
-#### 3. BackEnd Module
+## 3. BackEnd Module
 Third, go to the './Backend' directory, and use the following command.
 
 
@@ -74,7 +71,7 @@ Then run the following command.
 ./gradlew bootRun
 ```
 
-#### 4. Middleware Module
+## 4. Middleware Module
 Third, go to the './Backend' directory.
 
 You have to set up the following keys beforehand.
@@ -94,4 +91,21 @@ https://programmablesearchengine.google.com/
 Then, use the following command.
 ```
 python3 main.py
+```
+
+## Citation
+If you find this useful, please consider citing our paper:
+```
+@article{kim2023cotever,
+  title={CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification},
+  author={Kim, Seungone and Joo, Se June and Jang, Yul and Chae, Hyungjoo and Yeo, Jinyoung},
+  journal={arXiv preprint arXiv:2303.03628},
+  year={2023}
+}
+```  
+
+## Point of contact
+For any questions about the implementation or content of the paper, you could contact me via the following email:)
+```
+louisdebroglie@kaist.ac.kr
 ```
