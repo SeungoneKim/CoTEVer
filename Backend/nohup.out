@@ -1,0 +1,6 @@
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+Error: Unable to access jarfile /home/ec2-user/
+Error: Unable to access jarfile ../ec2-user/
+Error: Unable to access jarfile /Users/seungonekim/VSCode/ec2-user/

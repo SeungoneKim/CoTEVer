@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOSITORY=/home/ec2-user
+REPOSITORY=/Users/seungonekim/VSCode/CoTEVer/ec2-user
 PROJECT_NAME=CoTEVer-Server
 
 rm ../nohup.out
@@ -21,10 +21,10 @@ cp $REPOSITORY/$PROJECT_NAME/build/libs/CoTEVer-0.0.1-SNAPSHOT.jar $REPOSITORY/
 
 CURRENT_PID=$(pgrep -f CoTEVer-0.0.1-SNAPSHOT.jar)
 
-echo " 현재 구동중인 애플리케이션pid: $CURRENT_PID"
+echo " Current Deploying Server pid: $CURRENT_PID"
 
 if [ -z "$CURRENT_PID" ]; then
-	echo "> 현재 구동중인 서버가 없음"
+	echo "> No server currently in deployment."
 else
 	kill -15 $CURRENT_PID
 	echo "> kill"

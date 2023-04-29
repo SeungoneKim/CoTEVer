@@ -1,7 +1,9 @@
 import _axios from 'axios';
 import { queryI, rawQueryI, resultI } from './types';
 import d from './db/newdb.json';
-const PROXY = window.location.hostname === 'localhost' ? '' : '/api';
+
+const isLocalhost = window.location.hostname === 'localhost';
+const PROXY = isLocalhost ? 'http://172.30.1.79:8000' : 'http://0.0.0.0:8000/';
 
 export const axios = _axios.create({
   baseURL: PROXY,
@@ -9,7 +11,7 @@ export const axios = _axios.create({
 });
 
 export const getQuery = async (query: string) => {
-  const { data } = await axios.post<rawQueryI>('/query', {
+  const { data } = await axios.post<rawQueryI>('/api/query', {
     question: query,
   });
   // const data = d as any as rawQueryI;

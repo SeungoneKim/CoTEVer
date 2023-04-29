@@ -9,6 +9,7 @@ import os
 import aiohttp
 import asyncio
 import time
+from urllib.parse import quote
 
 
 url = 'https://www.google.com/search?q='
@@ -21,7 +22,9 @@ header = {
 
 def google_search(search_term, api_key, cse_id, **kwargs):
     service = build("customsearch", "v1", developerKey=api_key)
-    res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
+    
+    #print("encoded search term:",encoded_search_term)
+    res = service.cse().list(key=api_key,cx=cse_id,q=search_term).execute()
     return res
 
 
@@ -55,6 +58,7 @@ async def search(q, google_search_api, google_engine_id):
         tmptmp_res = {}
         tmptmp_res[str(i)] = []
         search_result = google_search(sub_questions[str(i)]['sub_question'], google_search_api, google_engine_id)
+        print(search_result)
         items = search_result['items']
         url = {}
         

@@ -1,6 +1,6 @@
 from transformers import pipeline
 from transformers import AutoTokenizer, AutoModelWithLMHead
-from Sogong_AI.utils import *
+from CoTEVer_AI.utils import *
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 import torch

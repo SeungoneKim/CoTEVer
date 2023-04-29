@@ -1,8 +1,9 @@
 import uvicorn
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from CoTEver_Search import search_yul
+from CoTEVer_Search import search_yul
 from CoTEVer_AI import gpt_request, speedup
 import math
 import asyncio
@@ -14,6 +15,23 @@ class Input(BaseModel):
 
 
 app = FastAPI()
+origins = [
+    "http://localhost:3000",
+    "http://172.30.1.79:3000",
+    "http://0.0.0.0:8000",
+    "https://www.googleapis.com/auth/cse"
+    # Add any other origins (frontend URLs) you want to allow requests from
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 my_decoder = gpt_request.Decoder()
 my_summarizer = speedup.SpeedyPipeline()
 demo = """
@@ -120,11 +138,11 @@ async def root():
     return {"message": "Hello, world!"}
 
 
-@app.post("/test")
+@app.post("/api/query")
 async def test(input: Input):
     output = formatter(my_decoder.decode(demo.format(input.question), key=os.getenv('GPT3_KEY')), input.question)
     output = await search_yul.search(output, os.getenv('GOOGLE_SEARCH_API_KEY'), os.getenv('GOOGLE_ENGINE_ID_KEY'))
-    output = my_summarizer.process_one(output)
+    output = my_summarizer.process_wo_summ(output)
 
     return output
 
