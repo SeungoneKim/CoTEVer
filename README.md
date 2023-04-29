@@ -1,4 +1,4 @@
-# Paper Title
+# CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification
 Official Repository of "CoTEVer: Chain of Thought Prompting Annotation Toolkit for Explanation Verification" accepted at EACL 2023 demo session.
 
 Paper Link: https://arxiv.org/abs/2303.03628
