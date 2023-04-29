@@ -10,6 +10,10 @@ Overview of software, CoTEVer.
   <img src="./cotever.png" width="50%" height="50%">
 </p>
 
+<p align="center">
+  <img src="./cotever_overview.png" width="80%" height="50%">
+</p>
+
 
 ## Setting
 Using the following commands, you could install the required softwares.
