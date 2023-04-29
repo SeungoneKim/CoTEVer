@@ -7,7 +7,7 @@ Youtube Explanation: https://www.youtube.com/watch?v=IKT6dVxp_qE
 
 Overview of software, CoTEVer.
 <p align="center">
-  <img src="./cotever.png" width="100%" height="80%">
+  <img src="./cotever.png" width="30%" height="30%">
 </p>
 
 
